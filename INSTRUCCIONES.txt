@@ -1,11 +1,8 @@
-MANCHAYNA COMPRAS 2.4 PWA
+MANCHAYNA COMPRAS 2.4 - GITHUB PAGES
 
-1. Haz copia de seguridad de tu proyecto.
-2. Copia todos los archivos de este ZIP a la RAÍZ de tu repositorio GitHub.
-3. CONSERVA tu supabase-config.js actual: no está incluido.
-4. Sube también la carpeta icons con sus dos imágenes.
-5. GitHub Pages publicará los cambios. Abre la URL y comprueba que funciona el login.
-6. En iPhone: Safari > Compartir > Añadir a pantalla de inicio. Si ya existía un acceso directo, puedes quitarlo y volverlo a añadir para ver el icono nuevo.
-
-La interfaz puede cargar algunos archivos desde caché, pero los datos de Supabase y el OCR siguen necesitando Internet. No uses la app para comprar sin conexión.
-No se incluyen contraseñas ni claves secretas.
+Sube todos los archivos y la carpeta icons/ a la RAIZ del repositorio.
+No borres supabase-config.js de GitHub: conserva el que ya funciona, con URL y clave PUBLICABLE.
+No subas claves secretas ni contraseñas.
+Si subes desde la web de GitHub, comprueba que los archivos se reemplazan y que icons/ mantiene su ruta.
+Espera a que Actions muestre el despliegue correcto y recarga la web.
+El titulo de index.html ahora indica 2.4.
