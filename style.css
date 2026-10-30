@@ -7,3 +7,5 @@
 
 /* Importación WhatsApp */
 #waRows{display:grid;gap:10px;margin:12px 0}.wa-row{display:grid;grid-template-columns:100px minmax(0,1fr) auto;gap:10px;align-items:end;padding:12px;border-radius:12px;background:#f4f6fa}.wa-row label{min-width:0}.wa-row button{background:#fff0f3;color:#a12c4b}.wa-suggestion{grid-column:2;display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:#57657a}.wa-suggestion button{background:#e8f1ff;color:#165a9e;padding:6px 9px;font-size:12px}.wa-actions{margin-top:12px}@media(max-width:520px){.wa-row{grid-template-columns:75px minmax(0,1fr) auto;gap:6px;padding:8px}.wa-row input{padding:9px!important}.wa-row button{padding:8px}.wa-suggestion{grid-column:1/-1}}
+
+.update-banner{position:sticky;top:8px;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:12px;background:#e9f5ff;border:1px solid #a6cfff;border-radius:12px;padding:10px 12px;box-shadow:0 5px 20px #0002;font-size:14px;font-weight:700}.update-banner[hidden]{display:none}.update-banner button{background:#1476bc;flex-shrink:0;padding:9px 12px}
